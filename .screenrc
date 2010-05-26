@@ -1,0 +1,7 @@
+shell -${SHELL}
+caption always "%{= kw}%?%-Lw%?%{+b kw}%n*%t%f %?(%u)%?%{= kw}%?%+Lw%?" 
+defscrollback 2048
+startup_message off
+#hardstatus on
+#hardstatus alwayslastline
+
