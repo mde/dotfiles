@@ -2183,9 +2183,9 @@ loop:   for (;;) {
 
     function comma() {
         if (token.line !== nexttoken.line) {
-            if (!option.laxbreak) {
-                warning("Bad line breaking before '{a}'.", token, nexttoken.id);
-            }
+            //if (!option.laxbreak) {
+            //    warning("Bad line breaking before '{a}'.", token, nexttoken.id);
+            //}
         } else if (token.character !== nexttoken.from && option.white) {
             warning("Unexpected space after '{a}'.", nexttoken, token.value);
         }
