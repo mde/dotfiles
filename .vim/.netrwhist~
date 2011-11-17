@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/mde/work/node-jsdoc-toolkit'
+let g:netrw_dirhist_2='/Users/mde/work/node-jsdoc-toolkit/app'
+let g:netrw_dirhist_3='/Users/mde/work/node-jsdoc-toolkit/app/frame'
+let g:netrw_dirhist_4='/Users/mde/work/node-jsdoc-toolkit/app/lib/JSDOC'

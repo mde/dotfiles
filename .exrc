@@ -1,6 +1,9 @@
 syntax on
 set background=dark
 
+set t_Co=256
+:colorscheme xoria256
+
 " Suppress all spaces at end/beginning of lines
 nmap _s :%s/\s\+$//<CR>
 nmap _S :%s/^\s\+//<CR>
@@ -41,10 +44,11 @@ abbr #e -----------------------------------------------*/
 cabbr lint !runjslint "`cat %`" \| lynx --force-html /dev/fd/5 -dump 5<&0 \| less
 
 " HTML syntax for .ejs template files
-au BufRead,BufNewFile *.ejs    set filetype=html
-
+au BufRead,BufNewFile *.ejs set filetype=html
 " JS syntax for .as files
-au BufRead,BufNewFile *.as    set filetype=javascript
+au BufRead,BufNewFile *.as set filetype=javascript
+" JS syntax for Jakefiles
+au BufRead,BufNewFile Jakefile set filetype=javascript
 
 :set hlsearch
 
