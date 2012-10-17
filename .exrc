@@ -28,6 +28,8 @@ set sw=2
 " set sm
 " Auto-indent
 set ai
+" Fucking Windows
+set ffs=unix,dos
 
 set history=1000
 
@@ -49,6 +51,8 @@ au BufRead,BufNewFile *.ejs set filetype=html
 au BufRead,BufNewFile *.as set filetype=javascript
 " JS syntax for Jakefiles
 au BufRead,BufNewFile Jakefile set filetype=javascript
+" Always, always, always use Unix line-endings
+au BufRead,BufNewFile * set fileformat=unix
 
 :set hlsearch
 
