@@ -1,6 +1,6 @@
 [user]
-	name = mde
-	email = mde@fleegix.org
+  name = mde
+  email = mde@fleegix.org
 [color]
   ui = true
 [color "diff"]
