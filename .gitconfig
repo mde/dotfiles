@@ -1,0 +1,19 @@
+[user]
+	name = mde
+	email = mde@fleegix.org
+[color]
+  ui = true
+[color "diff"]
+  meta = yellow
+  frag = cyan
+  old = red
+  new = green
+[alias]
+  l = log --pretty=format:'%Cgreen%h  %Creset%ai  %s%d %Cred[%an]'
+  stat = status
+  co = checkout
+  ci = commit
+  br = branch -v
+[rerere]
+  enabled = true
+
