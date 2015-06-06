@@ -13,7 +13,10 @@
   stat = status
   co = checkout
   ci = commit
+  cp = cherry-pick
   br = branch -v
 [rerere]
   enabled = true
 
+[core]
+	editor = /usr/bin/vim
